@@ -1,3 +1,4 @@
+
 var readlineSync = require('readline-sync');
 
 var name = readlineSync.question("Hey what is your name?");
@@ -12,7 +13,7 @@ function play(question,answer)
     }
     else{
       console.log('Wrong');
-    }    
+    }     
   }
 
 play("What's my fav color?",'Blue'); 
